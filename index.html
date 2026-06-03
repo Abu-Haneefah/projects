@@ -3,165 +3,336 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Al-Arqam Global Academy</title>
+    <title>Shifa Specialist Hospital</title>
   </head>
   <body>
-    <h1>Al-Arqam Global Academy</h1>
+    <!-- Header Section -->
+    <h1>Shifa Specialist Hospital</h1>
 
     <p>
-      Welcome to <strong>Al-Arqam Global Academy</strong>, an online platform
-      dedicated to Islamic education and technology training.
+      Welcome to <strong>Shifa Specialist Hospital</strong>, where quality
+      healthcare meets compassion and excellence.
     </p>
 
     <p>
-      We help students learn the
-      <em>Qur'an</em>, <em>Arabic Language</em>, and <em>Web Development</em>.
-    </p>
-
-    <hr />
-
-    <h2>About Our Academy</h2>
-
-    <img src="images/madrasa.png" alt="Academy Building" width="600" />
-
-    <p>
-      Our mission is to combine Islamic knowledge with modern technological
-      skills.
+      Our mission is to provide
+      <em>affordable</em>, <em>accessible</em>, and
+      <em>world-class healthcare services</em>
+      to all patients.
     </p>
 
     <hr />
 
-    <h2>Programs We Offer</h2>
+    <!-- Navigation -->
+    <h2>Quick Navigation</h2>
 
     <ul>
-      <li>Qur'an Memorization</li>
-      <li>Tajweed Classes</li>
-      <li>Arabic Language</li>
-      <li>HTML & Web Development</li>
-      <li>Islamic Studies</li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#doctors">Doctors</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#media">Media Center</a></li>
+      <li><a href="#appointment">Book Appointment</a></li>
+      <li><a href="#contact">Contact Us</a></li>
     </ul>
 
     <hr />
 
-    <h2>Student Learning Path</h2>
+    <!-- About Section -->
+    <h2 id="about">About Our Hospital</h2>
+
+    <img
+      src="./images/hospital_image.png"
+      alt="Hospital Building"
+      width="700"
+    />
+
+    <p>
+      Shifa Specialist Hospital has served patients for over 20 years, offering
+      advanced medical care and highly qualified healthcare professionals.
+    </p>
+
+    <p>
+      We specialize in emergency services, surgery, pediatrics, cardiology, and
+      laboratory services.
+    </p>
+
+    <hr />
+
+    <!-- Services -->
+    <h2 id="services">Hospital Services</h2>
+
+    <ul>
+      <li>Emergency Care</li>
+      <li>General Consultation</li>
+      <li>Surgery</li>
+      <li>Radiology</li>
+      <li>Pharmacy</li>
+      <li>Laboratory Services</li>
+      <li>Maternity Services</li>
+      <li>Pediatric Care</li>
+    </ul>
+
+    <hr />
+
+    <!-- Doctors Table -->
+    <h2 id="doctors">Our Medical Specialists</h2>
+
+    <table border="1" cellpadding="10">
+      <tr>
+        <th>Doctor</th>
+        <th>Specialization</th>
+        <th>Available Days</th>
+      </tr>
+
+      <tr>
+        <td>Dr. Ahmad Yusuf</td>
+        <td>Cardiology</td>
+        <td>Monday - Wednesday</td>
+      </tr>
+
+      <tr>
+        <td>Dr. Fatima Ibrahim</td>
+        <td>Pediatrics</td>
+        <td>Tuesday - Friday</td>
+      </tr>
+
+      <tr>
+        <td>Dr. Musa Bello</td>
+        <td>General Surgery</td>
+        <td>Monday - Friday</td>
+      </tr>
+
+      <tr>
+        <td>Dr. Maryam Aliyu</td>
+        <td>Gynecology</td>
+        <td>Wednesday - Saturday</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <!-- Weekly Schedule -->
+    <h2 id="schedule">Weekly Clinic Schedule</h2>
+
+    <table border="1" cellpadding="10">
+      <tr>
+        <th>Day</th>
+        <th>Department</th>
+        <th>Time</th>
+      </tr>
+
+      <tr>
+        <td>Monday</td>
+        <td>Cardiology</td>
+        <td>9:00 AM - 1:00 PM</td>
+      </tr>
+
+      <tr>
+        <td>Tuesday</td>
+        <td>Pediatrics</td>
+        <td>10:00 AM - 2:00 PM</td>
+      </tr>
+
+      <tr>
+        <td>Wednesday</td>
+        <td>Surgery</td>
+        <td>9:00 AM - 3:00 PM</td>
+      </tr>
+
+      <tr>
+        <td>Thursday</td>
+        <td>Maternity</td>
+        <td>8:00 AM - 12:00 PM</td>
+      </tr>
+
+      <tr>
+        <td>Friday</td>
+        <td>General Clinic</td>
+        <td>9:00 AM - 4:00 PM</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <!-- Hospital Statistics -->
+    <h2>Hospital Statistics</h2>
+
+    <table border="1" cellpadding="10">
+      <tr>
+        <th>Department</th>
+        <th>Doctors</th>
+        <th>Beds</th>
+      </tr>
+
+      <tr>
+        <td>Emergency</td>
+        <td>10</td>
+        <td>50</td>
+      </tr>
+
+      <tr>
+        <td>Surgery</td>
+        <td>8</td>
+        <td>30</td>
+      </tr>
+
+      <tr>
+        <td>Pediatrics</td>
+        <td>6</td>
+        <td>20</td>
+      </tr>
+
+      <tr>
+        <td>Maternity</td>
+        <td>5</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <!-- Media Section -->
+    <h2 id="media">Patient Education Center</h2>
+
+    <h3>Health Awareness Video</h3>
+
+    <video controls width="700">
+      <source src="videos/health-awareness.mp4" type="video/mp4" />
+      Your browser does not support video playback.
+    </video>
+
+    <br /><br />
+
+    <h3>Doctor's Welcome Message</h3>
+
+    <audio controls>
+      <source src="audio/welcome-message.mp3" type="audio/mpeg" />
+      Your browser does not support audio playback.
+    </audio>
+
+    <hr />
+
+    <!-- Appointment Form -->
+    <h2 id="appointment">Book an Appointment</h2>
+
+    <form>
+      <label>Full Name:</label>
+      <br />
+      <input type="text" placeholder="Enter Full Name" />
+      <br /><br />
+
+      <label>Email Address:</label>
+      <br />
+      <input type="email" placeholder="Enter Email" />
+      <br /><br />
+
+      <label>Phone Number:</label>
+      <br />
+      <input type="tel" placeholder="Enter Phone Number" />
+      <br /><br />
+
+      <label>Age:</label>
+      <br />
+      <input type="number" />
+      <br /><br />
+
+      <label>Gender:</label>
+      <br />
+
+      <input type="radio" name="gender" />
+      Male
+
+      <input type="radio" name="gender" />
+      Female
+
+      <br /><br />
+
+      <label>Select Department:</label>
+      <br />
+
+      <select>
+        <option>Cardiology</option>
+        <option>Pediatrics</option>
+        <option>Surgery</option>
+        <option>Maternity</option>
+        <option>General Consultation</option>
+      </select>
+
+      <br /><br />
+
+      <label>Preferred Appointment Date:</label>
+      <br />
+      <input type="date" />
+      <br /><br />
+
+      <label>Describe Your Condition:</label>
+      <br />
+
+      <textarea rows="5" cols="40"></textarea>
+
+      <br /><br />
+
+      <input type="submit" value="Book Appointment" />
+    </form>
+
+    <hr />
+
+    <!-- Testimonials -->
+    <h2>Patient Testimonials</h2>
+
+    <p>
+      <strong>Abdullahi Musa:</strong>
+      "The doctors were very professional and caring."
+    </p>
+
+    <p>
+      <strong>Aisha Ibrahim:</strong>
+      "Excellent facilities and friendly staff."
+    </p>
+
+    <p>
+      <strong>Maryam Usman:</strong>
+      "The best healthcare experience I have ever had."
+    </p>
+
+    <hr />
+
+    <!-- Resources -->
+    <h2>Health Resources</h2>
 
     <ol>
-      <li>Register as a student.</li>
-      <li>Choose a learning program.</li>
-      <li>Watch lesson videos.</li>
-      <li>Listen to Qur'an recitations.</li>
-      <li>Complete assignments.</li>
-      <li>Receive certificates.</li>
+      <li>
+        <a href="https://www.who.int" target="_blank">
+          World Health Organization
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.mayoclinic.org" target="_blank"> Mayo Clinic </a>
+      </li>
+
+      <li>
+        <a href="https://medlineplus.gov" target="_blank"> MedlinePlus </a>
+      </li>
     </ol>
 
     <hr />
 
-    <h2>HTML Video Lessons</h2>
-
-    <p>Watch our beginner-friendly HTML tutorials.</p>
-
-    <h3>Lesson 1: Introduction to HTML</h3>
-
-    <video controls width="700">
-      <source src="videos/html-introduction.mp4" type="video/mp4" />
-      Your browser does not support video.
-    </video>
-
-    <br /><br />
-
-    <h3>Lesson 2: HTML Headings and Paragraphs</h3>
-
-    <video controls width="700">
-      <source src="videos/html-headings.mp4" type="video/mp4" />
-      Your browser does not support video.
-    </video>
-
-    <hr />
-
-    <h2>Qur'an Audio Library</h2>
-
-    <p>Listen to beautiful Qur'an recitations.</p>
-
-    <h3>Surah Al-Fatihah</h3>
-
-    <audio controls>
-      <source
-        src="audios/mishary-rashid-alafasy-001-al-fatiha-30-7477.mp3"
-        type="audio/mpeg"
-      />
-      Your browser does not support audio.
-    </audio>
-
-    <br /><br />
-
-    <h3>Surah Al-Ikhlas</h3>
-
-    <audio controls>
-      <source
-        src="audios/mishary-rashid-alafasy-112-al-ikhlas-27-8903.mp3"
-        type="audio/mpeg"
-      />
-      Your browser does not support audio.
-    </audio>
-
-    <hr />
-
-    <h2>Academy Gallery</h2>
-
-    <img src="images/quran-class.png" alt="Quran Class" width="400" />
-
-    <img src="images/computer-class.png" alt="HTML Class" width="400" />
-
-    <hr />
-
-    <h2>Learning Resources</h2>
-
-    <ul>
-      <li>
-        <a href="https://developer.mozilla.org" target="_blank">
-          Learn HTML on MDN
-        </a>
-      </li>
-
-      <li>
-        <a href="https://www.w3schools.com/html/" target="_blank">
-          HTML Tutorials
-        </a>
-      </li>
-
-      <li>
-        <a href="https://www.quran.com" target="_blank">
-          Read the Qur'an Online
-        </a>
-      </li>
-    </ul>
-
-    <hr />
-
-    <h2>Why Choose Us?</h2>
+    <!-- Contact -->
+    <h2 id="contact">Contact Information</h2>
 
     <p>
-      ✔ Qualified Teachers <br />
-      ✔ Flexible Online Classes <br />
-      ✔ Recorded Lessons <br />
-      ✔ Islamic Environment <br />
-      ✔ Technology Training
+      Phone: +234 800 123 4567 <br />
+      Email: info@shifahospital.com <br />
+      Address: No. 15 Health Avenue, Kano, Nigeria
     </p>
 
     <hr />
 
-    <h2>Contact Us</h2>
+    <!-- Footer -->
+    <h3>© 2026 Shifa Specialist Hospital</h3>
 
-    <p>
-      Email: info@alarqamacademy.com <br />
-      Phone: +234 906 911 5484 <br />
-      Location: Lagos, Nigeria
-    </p>
-
-    <hr />
-
-    <h3>© 2026 Al-Arqam Global Academy</h3>
-
-    <p>Building students with knowledge, skills, and Islamic values.</p>
+    <p>Providing quality healthcare with compassion and excellence.</p>
   </body>
 </html>
