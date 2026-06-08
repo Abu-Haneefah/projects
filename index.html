@@ -2,274 +2,467 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TechLearn Academy</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header>
-      <h1>TechLearn Academy</h1>
 
-      <p>
-        Learn <strong>Programming</strong>, <strong>Web Development</strong>,
-        and <strong>Digital Skills</strong>
-        from industry professionals.
-      </p>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Taste Haven Restaurant</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <!-- ================= HEADER ================= -->
+
+    <header>
+      <h1>Taste <span>Haven</span> Restaurant</h1>
+
+      <p>Fresh Food. Delicious Moments. Memorable Experiences.</p>
 
       <img
         src="./images/academy_image_1.png"
-        alt="TechLearn Academy"
+        alt="Restaurant Banner"
         width="900"
       />
     </header>
 
     <hr />
 
-    <!-- NAVIGATION -->
+    <!-- ================= NAVIGATION ================= -->
+
     <nav>
-      <h2>Website Navigation</h2>
+      <h2>Navigation</h2>
 
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#videos">Video Lessons</a></li>
-        <li><a href="#podcast">Tech Podcast</a></li>
-        <li><a href="#instructors">Instructors</a></li>
-        <li><a href="#register">Enrollment</a></li>
+
+        <li><a href="#menu">Menu</a></li>
+
+        <li><a href="#gallery">Gallery</a></li>
+
+        <li><a href="#video">Restaurant Tour</a></li>
+
+        <li><a href="#reservation">Reservation</a></li>
+
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
     <hr />
 
+    <!-- ================= MAIN ================= -->
+
     <main>
       <!-- ABOUT -->
+
       <section id="about">
-        <h2>About TechLearn Academy</h2>
+        <h2>About Us</h2>
 
         <div>
+          <img src="./images/instructor1.png" alt="Chef" width="350" />
+
           <p>
-            TechLearn Academy is an online learning platform dedicated to
-            helping students build valuable technology skills.
+            Welcome to
+            <strong>Taste Haven Restaurant</strong>, where every meal is
+            prepared with passion, fresh ingredients and authentic recipes.
           </p>
 
           <p>
-            Our courses are designed for
-            <em>beginners</em>, <em>intermediate learners</em>, and aspiring
-            software developers.
+            Since 2015, we have served thousands of satisfied customers with
+            delicious meals made by experienced chefs.
+          </p>
+
+          <p>
+            We believe great food brings families, friends and communities
+            together.
           </p>
         </div>
       </section>
 
       <hr />
 
-      <!-- COURSES -->
-      <section id="courses">
-        <h2>Available Courses</h2>
+      <!-- FEATURED DISHES -->
+
+      <section>
+        <h2>Featured Dishes</h2>
+
+        <article>
+          <h3>Classic Beef Burger</h3>
+
+          <img src="./images/computer-class.png" alt="Burger" width="300" />
+
+          <p>
+            Our signature burger made with premium beef, fresh vegetables and
+            homemade sauce.
+          </p>
+        </article>
+
+        <br />
+
+        <article>
+          <h3>Italian Pizza</h3>
+
+          <img src="./images/hospital_image.png" alt="Pizza" width="300" />
+
+          <p>
+            Stone-baked pizza topped with mozzarella cheese, tomatoes and fresh
+            herbs.
+          </p>
+        </article>
+
+        <br />
+
+        <article>
+          <h3>Creamy Pasta</h3>
+
+          <img src="./images/learners1.png" alt="Pasta" width="300" />
+
+          <p>
+            Rich creamy pasta prepared with fresh vegetables and parmesan
+            cheese.
+          </p>
+        </article>
+      </section>
+
+      <hr />
+
+      <!-- MENU -->
+
+      <section id="menu">
+        <h2>Restaurant Menu</h2>
 
         <table border="1" cellpadding="10">
           <tr>
-            <th>Course</th>
-            <th>Duration</th>
-            <th>Level</th>
+            <th>Food</th>
+
+            <th>Category</th>
+
             <th>Price</th>
           </tr>
 
           <tr>
-            <td>HTML Fundamentals</td>
-            <td>4 Weeks</td>
-            <td>Beginner</td>
-            <td>$50</td>
+            <td>Beef Burger</td>
+
+            <td>Fast Food</td>
+
+            <td>$10</td>
           </tr>
 
           <tr>
-            <td>CSS Mastery</td>
-            <td>6 Weeks</td>
-            <td>Beginner</td>
-            <td>$70</td>
+            <td>Chicken Pizza</td>
+
+            <td>Italian</td>
+
+            <td>$15</td>
           </tr>
 
           <tr>
-            <td>JavaScript</td>
-            <td>8 Weeks</td>
-            <td>Intermediate</td>
-            <td>$100</td>
+            <td>Creamy Pasta</td>
+
+            <td>Italian</td>
+
+            <td>$12</td>
           </tr>
 
           <tr>
-            <td>React Development</td>
-            <td>10 Weeks</td>
-            <td>Advanced</td>
-            <td>$150</td>
+            <td>Grilled Chicken</td>
+
+            <td>Main Course</td>
+
+            <td>$18</td>
+          </tr>
+
+          <tr>
+            <td>French Fries</td>
+
+            <td>Side Dish</td>
+
+            <td>$5</td>
           </tr>
         </table>
       </section>
 
       <hr />
 
-      <!-- VIDEO LESSONS -->
-      <section id="videos">
-        <h2>Featured Video Lessons</h2>
+      <!-- GALLERY -->
 
-        <article>
-          <h3>Introduction to HTML</h3>
+      <section id="gallery">
+        <h2>Restaurant Gallery</h2>
 
-          <video controls width="700">
-            <source src="./videos/video1.mp4" type="video/mp4" />
-          </video>
-        </article>
+        <img src="./images/academy_image_1.png" alt="Restaurant" width="500" />
 
-        <br />
+        <img src="./images/academy_image_1.png" alt="Burger" width="300" />
 
-        <article>
-          <h3>HTML Forms Tutorial</h3>
+        <img src="./images/academy_image_1.png" alt="Pizza" width="300" />
+      </section>
 
-          <video controls width="700">
-            <source src="./videos/video2.mp4" type="video/mp4" />
-          </video>
-        </article>
+      <hr />
+      ```html
+      <!-- ================= VIDEO ================= -->
+
+      <section id="video">
+        <h2>Take a Tour of Our Restaurant</h2>
+
+        <p>
+          Experience the warm atmosphere and beautiful dining environment at
+          Taste Haven Restaurant.
+        </p>
+
+        <video controls width="700">
+          <source src="./videos/video1.mp4" type="video/mp4" />
+
+          Your browser does not support the video tag.
+        </video>
       </section>
 
       <hr />
 
-      <!-- PODCAST -->
-      <section id="podcast">
-        <h2>Technology Podcast</h2>
+      <!-- ================= AUDIO ================= -->
 
-        <p>Listen to our weekly technology discussions.</p>
+      <section>
+        <h2>Welcome Message</h2>
+
+        <p>Listen to a welcome message from our restaurant manager.</p>
 
         <audio controls>
           <source src="./audios/audio.mp4" type="audio/mpeg" />
+
+          Your browser does not support the audio element.
         </audio>
       </section>
 
       <hr />
 
-      <!-- INSTRUCTORS -->
-      <section id="instructors">
-        <h2>Meet Our Instructors</h2>
+      <!-- ================= OPENING HOURS ================= -->
 
-        <article>
-          <img src="./images/instructor1.png" alt="Instructor" width="250" />
-
-          <h3>John Smith</h3>
-
-          <p>
-            Senior Frontend Engineer with
-            <strong>10 years</strong> experience.
-          </p>
-        </article>
-
-        <article>
-          <img src="./images/instructor2.png" alt="Instructor" width="250" />
-
-          <h3>Sarah Johnson</h3>
-
-          <p>Full Stack Developer and Technical Mentor.</p>
-        </article>
-      </section>
-
-      <hr />
-
-      <!-- SKILLS -->
       <section>
-        <h2>Skills You Will Learn</h2>
+        <h2>Opening Hours</h2>
 
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Git & GitHub</li>
-          <li>Responsive Design</li>
-        </ul>
+        <table border="1" cellpadding="10">
+          <tr>
+            <th>Day</th>
+
+            <th>Opening Time</th>
+
+            <th>Closing Time</th>
+          </tr>
+
+          <tr>
+            <td>Monday</td>
+
+            <td>8:00 AM</td>
+
+            <td>10:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Tuesday</td>
+
+            <td>8:00 AM</td>
+
+            <td>10:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Wednesday</td>
+
+            <td>8:00 AM</td>
+
+            <td>10:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Thursday</td>
+
+            <td>8:00 AM</td>
+
+            <td>10:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Friday</td>
+
+            <td>8:00 AM</td>
+
+            <td>11:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Saturday</td>
+
+            <td>9:00 AM</td>
+
+            <td>11:00 PM</td>
+          </tr>
+
+          <tr>
+            <td>Sunday</td>
+
+            <td>9:00 AM</td>
+
+            <td>9:00 PM</td>
+          </tr>
+        </table>
       </section>
 
       <hr />
 
-      <!-- ENROLLMENT FORM -->
-      <section id="register">
-        <h2>Course Enrollment Form</h2>
+      <!-- ================= RESERVATION ================= -->
+
+      <section id="reservation">
+        <h2>Reserve a Table</h2>
 
         <form>
-          <label>Full Name</label><br />
-          <input type="text" /><br /><br />
+          <label>Full Name</label>
 
-          <label>Email Address</label><br />
-          <input type="email" /><br /><br />
+          <br />
 
-          <label>Phone Number</label><br />
-          <input type="tel" /><br /><br />
+          <input type="text" placeholder="Enter your full name" />
 
-          <label>Date of Birth</label><br />
-          <input type="date" /><br /><br />
+          <br /><br />
 
-          <label>Select Course</label><br />
+          <label>Email Address</label>
+
+          <br />
+
+          <input type="email" placeholder="Enter your email" />
+
+          <br /><br />
+
+          <label>Phone Number</label>
+
+          <br />
+
+          <input type="tel" placeholder="Enter your phone number" />
+
+          <br /><br />
+
+          <label>Reservation Date</label>
+
+          <br />
+
+          <input type="date" />
+
+          <br /><br />
+
+          <label>Reservation Time</label>
+
+          <br />
+
+          <input type="time" />
+
+          <br /><br />
+
+          <label>Number of Guests</label>
+
+          <br />
 
           <select>
-            <option>HTML Fundamentals</option>
-            <option>CSS Mastery</option>
-            <option>JavaScript</option>
-            <option>React Development</option>
+            <option>1 Person</option>
+            <option>2 People</option>
+            <option>3 People</option>
+            <option>4 People</option>
+            <option>5 People</option>
+            <option>More than 5</option>
           </select>
 
           <br /><br />
 
-          <label>Learning Experience</label><br />
+          <label>Special Request</label>
 
-          <input type="radio" name="experience" /> Beginner
-          <input type="radio" name="experience" /> Intermediate
-          <input type="radio" name="experience" /> Advanced
+          <br />
 
-          <br /><br />
-
-          <label>Why do you want to join?</label><br />
-
-          <textarea rows="5" cols="50"></textarea>
+          <textarea
+            rows="5"
+            cols="50"
+            placeholder="Tell us anything we should know..."
+          ></textarea>
 
           <br /><br />
 
-          <input type="submit" value="Enroll Now" />
+          <input type="submit" value="Reserve Table" />
         </form>
+      </section>
+
+      <hr />
+
+      <!-- ================= TESTIMONIALS ================= -->
+
+      <section>
+        <h2>Customer Reviews</h2>
+
+        <article>
+          <h3>★★★★★ Sarah Johnson</h3>
+
+          <p>
+            The food was amazing and the customer service was outstanding. I
+            will definitely visit again!
+          </p>
+        </article>
+
+        <article>
+          <h3>★★★★★ Michael Brown</h3>
+
+          <p>
+            One of the best restaurants in the city. Clean environment and
+            delicious meals.
+          </p>
+        </article>
+
+        <article>
+          <h3>★★★★★ Emily Davis</h3>
+
+          <p>
+            Excellent dining experience. The chef truly knows how to prepare
+            world-class dishes.
+          </p>
+        </article>
       </section>
     </main>
 
     <hr />
 
-    <!-- SIDEBAR -->
-    <aside>
-      <h2>Useful Resources</h2>
+    <!-- ================= SIDEBAR ================= -->
 
-      <ol>
+    <aside>
+      <h2>Quick Links</h2>
+
+      <ul>
         <li>
-          <a href="https://developer.mozilla.org" target="_blank">
-            MDN Documentation
+          <a href="https://www.foodnetwork.com" target="_blank">
+            Food Network
           </a>
         </li>
 
         <li>
-          <a href="https://www.w3schools.com" target="_blank"> W3Schools </a>
+          <a href="https://www.allrecipes.com" target="_blank"> All Recipes </a>
         </li>
 
         <li>
-          <a href="https://github.com" target="_blank"> GitHub </a>
+          <a href="https://www.tripadvisor.com" target="_blank">
+            TripAdvisor
+          </a>
         </li>
-      </ol>
+      </ul>
     </aside>
 
     <hr />
 
-    <!-- FOOTER -->
+    <!-- ================= FOOTER ================= -->
+
     <footer id="contact">
       <h2>Contact Us</h2>
 
+      <p>📍 25 Ocean View Street, Victoria Island, Lagos, Nigeria</p>
+
+      <p>📞 +234 800 123 4567</p>
+
+      <p>✉ info@tastehaven.com</p>
+
       <p>
-        Email: support@techlearnacademy.com <br />
-        Phone: +1 (555) 123-4567 <br />
-        Address: 25 Innovation Street, Tech City, Epe Lagos, Nigeria.
+        Follow us on social media for our latest meals, promotions and events.
       </p>
 
-      <p>© 2026 TechLearn Academy. All Rights Reserved.</p>
+      <p>&copy; 2026 Taste Haven Restaurant. All Rights Reserved.</p>
     </footer>
   </body>
 </html>
